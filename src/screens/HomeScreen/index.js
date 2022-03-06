@@ -4,6 +4,9 @@ import assets from './assets'
 import styles from './styles'
 
 class HomeScreen extends Component{
+    static navigationOptions = {
+        header: null
+    }
     state = {
         show: true
     }

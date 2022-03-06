@@ -1,28 +1,13 @@
-import React from 'react'
 import { createSwitchNavigator, createAppContainer } from 'react-navigation'
 import HomeScreen from './src/screens/HomeScreen'
-import { Text } from 'react-native'
+import TripsScreen from './src/screens/TripsScreen'
 
-const TripScreen = props => {
-  return(
-    <Text style={{paddingTop: 100 }}>TripScreen</Text>
-  )
-}
 
 const AppNavigator = createSwitchNavigator({
   Home: HomeScreen,
-  Trips: TripScreen
+  Trips: TripsScreen
 }, {
-  initialRouteName: 'Home'
+  initialRouteName: 'Trips'
 })
 
 export default createAppContainer(AppNavigator)
-
-// const App = () => {
-
-//   return (
-//     <HomeScreen />
-//   )
-// }
-
-// export default App

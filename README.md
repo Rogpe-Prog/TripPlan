@@ -9,11 +9,13 @@
     * Criação do Layout pelo Figma e inserção das imagens via código.
 * Aula 02:
     * Criação das telas de navegação;
-    * Import figuras exposrtadas do Figma;
-    * Instalação e configuração da nevegação;
+    * Import figuras exportadas do Figma;
+    * Instalação e configuração da navegação;
+    * Criação do Layout da TripScreen;
 * Aula 03 -
 
 
 <img src="./assets/HomeScreen.png" alt="HomeScreen" width="128"/>
 
-#### Para me manter up to date.
+#### To keep me up to date.
+&reg; Heroes Dev
